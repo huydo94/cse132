@@ -1,0 +1,142 @@
+Number:  0	00000000
+as int:  0	00000000
+Treating number as 0 (0: int; 1: long; 2: char)
+Function        	Output	Hex
+hasAZero:       	1	0x1
+hasAOne:        	0	0
+leastSigHasAOne:	0	0
+negate:         	0	0
+isNegativeInt:  	0	0
+
+Number:  4294967295	0xffffffff
+as int:  -1	0xffffffff
+Treating number as 0 (0: int; 1: long; 2: char)
+Function        	Output	Hex
+hasAZero:       	0	0
+hasAOne:        	1	0x1
+leastSigHasAOne:	1	0x1
+negate:         	1	0x1
+isNegativeInt:  	1	0x1
+
+Number:  2863311530	0xaaaaaaaa
+as int:  -1431655766	0xaaaaaaaa
+Treating number as 0 (0: int; 1: long; 2: char)
+Function        	Output	Hex
+hasAZero:       	1	0x1
+hasAOne:        	1	0x1
+leastSigHasAOne:	1	0x1
+negate:         	1431655766	0x55555556
+isNegativeInt:  	1	0x1
+
+Number:  4294967040	0xffffff00
+as int:  -256	0xffffff00
+Treating number as 0 (0: int; 1: long; 2: char)
+Function        	Output	Hex
+hasAZero:       	1	0x1
+hasAOne:        	1	0x1
+leastSigHasAOne:	0	0
+negate:         	256	0x100
+isNegativeInt:  	1	0x1
+
+Number:  1	0x000001
+as int:  1	0x000001
+Treating number as 0 (0: int; 1: long; 2: char)
+Function        	Output	Hex
+hasAZero:       	1	0x1
+hasAOne:        	1	0x1
+leastSigHasAOne:	1	0x1
+negate:         	-1	0xffffffff
+isNegativeInt:  	0	0
+
+Number:  1	0x000001
+as int:  1	0x000001
+Treating number as 0 (0: int; 1: long; 2: char)
+Function        	Output	Hex
+hasAZero:       	1	0x1
+hasAOne:        	1	0x1
+leastSigHasAOne:	1	0x1
+negate:         	-1	0xffffffff
+isNegativeInt:  	0	0
+
+Number:  100	0x000064
+as int:  100	0x000064
+Treating number as 0 (0: int; 1: long; 2: char)
+Function        	Output	Hex
+hasAZero:       	1	0x1
+hasAOne:        	1	0x1
+leastSigHasAOne:	1	0x1
+negate:         	-100	0xffffff9c
+isNegativeInt:  	0	0
+
+Number:  10000	0x002710
+as int:  10000	0x002710
+Treating number as 0 (0: int; 1: long; 2: char)
+Function        	Output	Hex
+hasAZero:       	1	0x1
+hasAOne:        	1	0x1
+leastSigHasAOne:	1	0x1
+negate:         	-10000	0xffffd8f0
+isNegativeInt:  	0	0
+
+Number:  255	0x0000ff
+as int:  255	0x0000ff
+Treating number as 2 (0: int; 1: long; 2: char)
+Function        	Output	Hex
+hasAZero:       	1	0x1
+hasAOne:        	1	0x1
+leastSigHasAOne:	1	0x1
+negate:         	-255	0xffffff01
+isNegativeChar: 	1	0x1
+
+Number:  255	0x0000ff
+as int:  255	0x0000ff
+Treating number as 0 (0: int; 1: long; 2: char)
+Function        	Output	Hex
+hasAZero:       	1	0x1
+hasAOne:        	1	0x1
+leastSigHasAOne:	1	0x1
+negate:         	-255	0xffffff01
+isNegativeInt:  	0	0
+
+Number:  255	0x0000ff
+as int:  255	0x0000ff
+Treating number as 1 (0: int; 1: long; 2: char)
+Function        	Output	Hex
+hasAZero:       	1	0x1
+hasAOne:        	1	0x1
+leastSigHasAOne:	1	0x1
+negate:         	-255	0xffffff01
+isNegativeLong: 	0	0
+
+Number:  1	0x000001
+as int:  1	0x000001
+Shifted: 4294967296	0x100000000
+Treating number as 0 (0: int; 1: long; 2: char)
+Function        	Output	Hex
+hasAZero:       	1	0x1
+hasAOne:        	0	0
+leastSigHasAOne:	0	0
+negate:         	0	0
+isNegativeInt:  	0	0
+
+Number:  1	0x000001
+as int:  1	0x000001
+Shifted: 65536	0x010000
+Treating number as 0 (0: int; 1: long; 2: char)
+Function        	Output	Hex
+hasAZero:       	1	0x1
+hasAOne:        	1	0x1
+leastSigHasAOne:	0	0
+negate:         	-65536	0xffff0000
+isNegativeInt:  	0	0
+
+Number:  1	0x000001
+as int:  1	0x000001
+Shifted: 1	0x000001
+Treating number as 0 (0: int; 1: long; 2: char)
+Function        	Output	Hex
+hasAZero:       	1	0x1
+hasAOne:        	1	0x1
+leastSigHasAOne:	1	0x1
+negate:         	-1	0xffffffff
+isNegativeInt:  	0	0

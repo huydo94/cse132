@@ -1,0 +1,52 @@
+# CSE132 (Assignment 5) Cover Page
+
+By submitting this assignment, you certify that you have read, understood, and
+complied with the CSE 132 collaboration policy. You are also certifying that
+the following information is complete and truthful.
+
+
+## Basic Information
+
+Name: Huy Do
+WUSTL Key: huy.do
+
+and if two are partnered together
+
+Name:
+WUSTL Key:
+
+List people who helped you on this assignment 
+(outside of TAs, instructors, or partners):
+
+List outside sources you used on this assignment
+(other than those linked in the writeup):
+
+
+
+## Assignment Overview
+
+What challenged you about this assignment?
+
+What did you learn during this assignment?
+
+Were you unable to complete anything? Explain:
+
+Is there anything we should know about your work on this assignment:
+
+
+
+## Assignment Questions
+
+What is the Morse code encoding of the mesage "Hello world"?
+
+{1, 1, 1, 1, 0}3{1, 0, 0, 0, 0}3{1, 3, 1, 1, 0}3{1, 3, 1, 1, 0}3{3, 3, 3, 0, 0} 7 {1, 3, 3, 0, 0}3{3, 3, 3, 0, 0}3{1, 3, 1, 0, 0}3{1, 3, 1, 1, 0}3{3, 1, 1, 0, 0}
+
+We said in the writeup that we "cheated" on the normal rules for .h files
+and .c files.  What could you do (don't actually do it, just describe it)
+so that your morse sketch follows the rules strictly (i.e., no actual
+executable code in a .h file)?
+separate the function convertByte in another .c file 
+
+
+
+

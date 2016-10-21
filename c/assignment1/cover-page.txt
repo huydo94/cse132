@@ -1,0 +1,76 @@
+# CSE132 Assignment 1 Cover Page
+
+By submitting this assignment, you certify that you have read, understood, and
+complied with the CSE132 collaboration policy. You are also certifying that
+the following information is complete and truthful.
+
+
+## Basic Information
+
+Name: Huy Do
+Partner:
+Email Address: huy.do@wustl.edu
+Lab Section: B
+
+List people who helped you on this assignment 
+(outside of TAs, instructors, or partners):
+
+List outside sources you used on this assignment
+(other than those linked in the writeup):
+http://www.gnu.org/software/make/manual/make.html#Reading
+
+
+## Assignment Overview
+
+What challenged you about this assignment?
+
+I had a lot of trouble understanding how to create the makefile. 
+
+What did you learn during this assignment?
+
+How to use makefile to build a program,including:
++ what a phony target is and what it does
++ the main target manip will depend on the object files
++ how to build object files (which depend on .c and .h files) 
+
+Programming bitwise and boolean operations in C.
+
+
+Were you unable to complete anything? Explain:
+
+Is there anything we should know about your work on this assignment:
+
+
+
+## Assignment Questions
+
+1. Solve the following bitwise and boolean operations, assuming they are written in C and the numbers are `int`s.
+
+	a. 0 || 23 == 1
+	b. 0 | 23 == 10111
+	c. 5 && 0 == 0
+	d. 5 & 3 == 001
+	e. !4 == 0
+	f. ~5 == 010
+	g. 7 >> 3 == 0
+	h. 3 ^ 5 == 110
+
+2. What is most negative number you can represent in a two's-complement 3-byte datatype?  Write your answer in terms of 2 to some power.
+
+-(2^23)
+
+
+3. Explain in a couple of sentences the advantages of breaking your program into multiple files and using header files to declare functions.
+
+Breaking the program into multiple files makes the debugging process easier since we can diagnose the files separately instead of trying to find an error in a huge file. For the reader, a more  compact program improves readability. 
+
+For the compiler, it does not have to recompile the files that are not changed, thus improves the processing time.
+
+4. What is `make`'s implicit rule for compiling `.c` files into `.o` files?
+
+.o files are created  from .c files using the command :
+“$(CC) $(CPPFLAGS) $(CFLAGS) -c”
+
+for example: $(CC) $(CFLAGS) -c manip.c will build manip.o
+
+

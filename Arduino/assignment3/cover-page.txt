@@ -1,0 +1,66 @@
+# CSE132 (Assignment 3) Cover Page
+
+By submitting this assignment, you certify that you have read, understood, and
+complied with the CSE 132 collaboration policy. You are also certifying that
+the following information is complete and truthful.
+
+
+## Basic Information
+
+Name: Huy Do
+WUSTL Key: huy.do
+
+and if two are partnered together
+
+Name:
+WUSTL Key:
+
+List people who helped you on this assignment 
+(outside of TAs, instructors, or partners):
+
+List outside sources you used on this assignment
+(other than those linked in the writeup):
+
+
+
+## Assignment Overview
+
+What challenged you about this assignment?
+
+Figure out the delta timing for cricket. Also had trouble with “integer overflow” error 
+
+What did you learn during this assignment?
+
+The basics of delta timing and the rolling average to filter raw data.
+
+Were you unable to complete anything? Explain:
+
+Is there anything we should know about your work on this assignment:
+
+
+
+## Assignment Questions
+
+Dolbear's Law is an equation that gives you a temperature from a number of
+cricket chirps in one minute. What is the equation that provides the chirp 
+period given a temperature in Celcius?
+
+period = 60000/(7*Tc-30);  (milliseconds)
+
+
+Using the datasheet for your temperature sensor, the equation you derived
+from it, and you knowledge of the Arduino, what is the expected `analogRead()`
+value for 25 Celcius? 15 Celcius? Include any assumptions, like 
+`analogReference()`, and a little bit of your work (an equation is fine).
+
+Since   temp = (1.1/1023)*val*100-50; for analogReference(INTERNAL)
+
+Thus  for temp = 25, val = 697.5 which correspond to analogRead()=698 assuming analogRead() will round down.
+      for temp = 15, val = 604.5 which correspond to analogRead()=604
+
+What temperature range is the TMP36 specified for? How accurate is it in this
+range? This can be answered looking solely at the overview and specifications
+pages.
+
+Between -40 Celsius and +125 Celsius. The accuracy is +/- 2 Celsius.
+

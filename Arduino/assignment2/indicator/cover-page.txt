@@ -1,0 +1,52 @@
+# CSE132 Assignment 2 Cover Page
+
+By submitting this assignment, you certify that you have read, understood, and
+complied with the CSE132 collaboration policy. You are also certifying that
+the following information is complete and truthful.
+
+
+## Basic Information
+
+Name: Huy Do
+Partner:
+Email Address: huy.do@wustl.edu
+Lab Section: B
+
+List people who helped you on this assignment 
+(outside of TAs, instructors, or partners):
+
+List outside sources you used on this assignment
+(other than those linked in the writeup):
+
+
+
+## Assignment Overview
+
+What challenged you about this assignment?
+
+Building the physical circuit is somewhat challenging
+What did you learn during this assignment?
+There's an internal AD converter inside the Arduino, which is convenient.
+Were you unable to complete anything? Explain:
+
+Is there anything we should know about your work on this assignment:
+
+
+
+## Assignment Questions
+
+In a few sentences, what does PWM do, on a physical level? Can the Arduino 
+actually output a voltage that is not 0 or 5 Volts?
+	PWM changes the portion of the time the signal spends "on" versus the time it spends "off".
+To the human eyes, if the time "on" of the LED >> time "off", the LED appears brighter. This creates an illusion of an "analog" signal going into the LED.
+In reality, the Arduino only outputs voltage of either 0 or 5 volts.
+  
+
+In a few sentences, how does your program convert the input from `analogRead` 
+into a voltage? Could you generalize this into an equation to get a voltage
+given an `analogRead`?
+	analogRead gives out values from 0 to 1023. These are the voltage levels between 0 and 5 volts. The actual voltage can be computed by V = (5/1024)*val where val
+is the output of analogRead
+
+Why do you have to put resistors on the circuit?
+	The LED itself has very low resistance. Without an external resistor to control the current flow, the LED might be destroyed because of too much current. 
